@@ -1,0 +1,16 @@
+{
+  "name": "Project 1",
+  "endpoint": "rhodes/comp141/fa19/hwtest",
+  "src": [
+    "P1.ipynb",
+    "time_to_drop.py"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}
